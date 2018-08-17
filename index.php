@@ -24,13 +24,7 @@ else if((array_key_exists("id", $_SESSION) AND $_SESSION['id']) OR (array_key_ex
 if(array_key_exists("submit", $_POST)){
     
     // Connect to database 
-    $link = mysqli_connect('localhost', 'root', '', 'dbss');
-
-    if(mysqli_connect_error()){
-       
-        die('Connection error');
-
-    }
+   include('conn.php');
 
     // check if the email field has value or empty.
 
