@@ -4,7 +4,8 @@ session_start();
 // Declaring the Global error Variable
 $error = "";
 
-// check user clicked logout button and destroy the session and cookie
+// Action when the user clicked the logout button.
+// destroy the session and cookie.
 
 if(array_key_exists('logout', $_GET)){
     // destroy the session
