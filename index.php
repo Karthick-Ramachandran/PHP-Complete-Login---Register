@@ -4,8 +4,8 @@ session_start();
 // Declaring the Global error Variable
 $error = "";
 
-// logout stuff
-// logout name should be the url stuff
+// check user clicked logout button and destroy the session and cookie
+
 if(array_key_exists('logout', $_GET)){
     // destroy the session
     session_destroy();
@@ -140,7 +140,7 @@ else{
             $_SESSION['id'] = $row['id'];
             // if remember me then it should be stay looged in
             if($_POST['alwayslogin'] == '1'){
-
+                       // In my case i set cookie for 365 days
                 setcookie("id", row['id'] , time() + 60*60*24*365);
             
             }
