@@ -12,7 +12,7 @@
    <div class="container">
     <h5>Please Make sure to use php version > 7</h5> 
 <h2 class="mb-3 mt-3 center">Complete Login and Signup Form for CORE PHP Developers with Remember me system secure from SQL Injections.</h2>
-<h3 class='mb-3 center mt-2'>This is how it will look Like.. Check the code.. it is pretty Straight forward..</h3>
+<h3 class='mb-3 center mt-2'>Check the code.. it is pretty Straight forward..</h3>
 <h4>With bootstrap 4 ugly design</h4>
 </div>
 <div class="container">
